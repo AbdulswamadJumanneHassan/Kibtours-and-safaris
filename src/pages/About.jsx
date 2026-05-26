@@ -20,7 +20,7 @@ const About = () => {
 
     const highlights = [
         { icon: <Target className="h-6 w-6" />, title: "Our Mission", text: "To provide authentic and sustainable travel experiences that connect people with the natural wonders of Tanzania." },
-        { icon: <Eye className="h-6 w-6" />, title: "Our Vision", text: "To be the leading premium safari agency in East Africa, known for excellence, safety, and cultural preservation." },
+        { icon: <Eye className="h-6 w-6" />, title: "Our Vision", text: "To inspire travelers from around the world to discover the beauty,culture,and soul of Zanzibar Tanzania through authentic,sustainable,and unforgettable travel experiences." },
         { icon: <Users className="h-6 w-6" />, title: "Expert Team", text: "Our guides and staff are professionals with decades of combined experience in the hospitality and tourism industry." },
         { icon: <Award className="h-6 w-6" />, title: "Safety First", text: "We adhere to the highest international safety standards to ensure your peace of mind throughout your journey." }
     ];
