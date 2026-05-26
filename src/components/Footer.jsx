@@ -30,7 +30,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
-                            Choose Kib Tour & Safaris for an extraordinary journey that leaves a lasting impression. We create authentic safari experiences in Tanzania and Zanzibar.
+                            Choose Kib Tour & Safaris for an extraordinary journey that leaves a lasting impression. We create authentic safari experiences in Zanzibar Tanzania.
                         </p>
                     </div>
                 </div>
