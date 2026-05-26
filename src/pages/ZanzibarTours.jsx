@@ -23,7 +23,7 @@ const ZanzibarTours = () => {
     const tours = [
         {
             title: "Safari Blue",
-            description: "Sail aboard the famous traditional dhow with stunning sunset views and dolphin spotting.",
+            description: "A full day sea adventure experience a dhow sailing and range of activities.",
             image: "src/assets/safari blue 3.jpg",
             tag: "Water"
         },
