@@ -175,8 +175,8 @@ const Home = () => {
                     className="max-w-4xl z-10"
                 >
                     <h1 className="text-3xl md:text-6xl lg:text-8xl font-bold mb-4 md:mb-8 leading-tight">
-                        Explore Tanzania with <br />
-                        <span className="text-primary italic">Kib Tour & Safaris</span>
+                        Explore Zanzibar Tanzania with <br />
+                        <span className="text-primary italic">Kib tours and Safaris</span>
                     </h1>
                     <p className="text-sm md:text-lg lg:text-2xl text-slate-200 mb-6 md:mb-12 max-w-2xl mx-auto leading-relaxed">
                         Experience the raw beauty of African wildlife and the serene beaches of Zanzibar. Unforgettable adventures tailored just for you.
