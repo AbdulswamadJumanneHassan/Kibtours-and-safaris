@@ -121,11 +121,11 @@ const Contact = () => {
                         <div className="space-y-1 md:space-y-2">
                             <label className="text-[10px] md:text-xs font-bold uppercase tracking-widest text-slate-500">Subject</label>
                             <select className="w-full bg-white/5 border border-white/10 rounded-lg md:rounded-xl px-3 md:px-4 py-2 md:py-3 text-xs md:text-sm focus:outline-none focus:border-primary transition-colors">
-                                <option className="bg-slate-900">General Inquiry</option>
-                                <option className="bg-slate-900">Safari Booking</option>
-                                <option className="bg-slate-900">Zanzibar Tour</option>
+                                <option className="bg-slate-900">General Inquiries</option>
+                                <option className="bg-slate-900">Safari Bookings</option>
+                                <option className="bg-slate-900">Zanzibar Tours</option>
                                 <option className="bg-slate-900">Adventures</option>
-                                <option className="bg-slate-900">Hotel Reservation</option>
+                                <option className="bg-slate-900">Hotel Reservations</option>
                             </select>
                         </div>
                         <div className="space-y-1 md:space-y-2">

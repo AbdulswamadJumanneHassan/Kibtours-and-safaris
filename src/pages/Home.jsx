@@ -58,7 +58,7 @@ const Home = () => {
             featured: {
                 title: "Adventures",
                 location: "Tanzania",
-                image: "src/assets/riding bg.jpg",
+                image: "src/assets/Adventure.jpeg",
                 duration: "Full Experience",
                 activity: "Hiking"
             }

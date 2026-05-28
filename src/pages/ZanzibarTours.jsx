@@ -86,6 +86,42 @@ const ZanzibarTours = () => {
             description: "Swim with tropical fish and explore the natural rock pools teeming with marine life.",
             image: "src/assets/aquarium.jpg",
             tag: "Marine"
+        },
+        {
+            title: "Salaam Cave",
+            description: "Salaam cave.",
+            image: "src/assets/",
+            tag: "Marine"
+        },
+        {
+            title: "Mtende Village",
+            description: "Mtende Village.",
+            image: "src/assets/",
+            tag: "Marine"
+        },
+        {
+            title: "Paje Beach",
+            description: "Paje Beach.",
+            image: "src/assets/",
+            tag: "Marine"
+        },
+        {
+            title: "Kae Funki",
+            description: "Kae Funki.",
+            image: "src/assets/",
+            tag: "Marine"
+        },
+        {
+            title: "Kendewa Beach",
+            description: "Kendewa Beach.",
+            image: "src/assets/",
+            tag: "Marine"
+        },
+        {
+            title: "Nungwi Beach",
+            description: "Nungwi Beach.",
+            image: "src/assets/",
+            tag: "Marine"
         }
     ];
 
