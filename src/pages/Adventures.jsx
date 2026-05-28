@@ -25,6 +25,7 @@ const Adventures = () => {
             location: "Southwestern Tanzania",
             description: "Magoroto Forest is a lush, privately protected rainforest nestled in the East Usambara Mountains of Tanzania. Known for its rich biodiversity, scenic hiking trails, and a tranquil freshwater lake, it offers visitors a peaceful escape into nature. The forest is home to unique plant and animal species, making it an ideal destination for eco-tourism, birdwatching, and outdoor adventures.",
             image: "src/assets/magotoro.jpeg",
+            duration: "Full Day",
             category: "Trekking",
             icon: <Mountain className="h-5 w-5" />
         },
@@ -41,15 +42,15 @@ const Adventures = () => {
             title: "Kitulo National Park",
             location: "Southwestern Tanzania",
             description: "Kitulo National Park is a high-altitude plateau in southern Tanzania, famously known as the “Serengeti of Flowers” for its vibrant seasonal wildflower displays. The park features rolling grasslands, rare plant species including orchids, and a cool, scenic landscape ideal for hiking, nature photography, and birdwatching.",
-            image: "src/assets/kitulo.jpeg",
-            category: "Hiking",
+            image: "src/assets/kitulo.jpeg",            duration: "Full Day",            category: "Hiking",
             icon: <Activity className="h-5 w-5" />
         },
         {
             title: "Materuni Waterfall",
             location: "Northern Tanzania",
-            description: "Materuni waterfall.",
+            description: "Materuni Waterfall is a stunning cascade located in the Kilimanjaro region of northern Tanzania. Known for its breathtaking natural beauty and pristine swimming pool at the base, it offers visitors a refreshing retreat into nature. The waterfall is surrounded by lush vegetation and provides excellent opportunities for hiking, photography, and experiencing authentic Tanzanian culture.",
             image: "src/assets/Materuni waterfall.jpeg",
+            duration: "Half Day",
             category: "Hiking",
             icon: <Activity className="h-5 w-5" />
         }
