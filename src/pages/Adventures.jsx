@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Activity, Clock, MapPin, CheckCircle2, Star, Mountain, Waves, Wind, ArrowUp, Home } from 'lucide-react';
+import { Activity, Clock, MapPin, CheckCircle2, Mountain, Waves, ArrowUp, Home } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Adventures = () => {
@@ -70,7 +70,7 @@ const Adventures = () => {
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
+                    transition={{ duration: 0.3 }}
                 >
                     <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold italic text-primary mb-3 md:mb-6">Adventure Awaits</h1>
                     <p className="text-slate-300 max-w-3xl mx-auto text-xs md:text-base lg:text-lg leading-relaxed">
@@ -95,6 +95,8 @@ const Adventures = () => {
                             <img
                                 src={adventure.image}
                                 alt={adventure.title}
+                                loading="lazy"
+                                decoding="async"
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                             />
                             <div className="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-4 py-2 rounded-full backdrop-blur-md shadow-lg">
@@ -173,6 +175,8 @@ const Adventures = () => {
                         <img
                             src=""
                             alt="Adventure team"
+                            loading="lazy"
+                            decoding="async"
                             className="rounded-[2rem] shadow-2xl relative z-10"
                         />
                         <div className="absolute -bottom-6 -left-6 w-full h-full border-2 border-primary/30 rounded-[2rem] -z-10" />
